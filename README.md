@@ -1,6 +1,6 @@
 # Satellites Reveal Recent Increases in Global Land Surface Albedo that Moderate Global Warming
 
-This repository contains the code and data for the study titled **"Satellites reveal recent increases in global land surface albedo that moderate global warming"**. 
+This repository contains the code and some intermediate data for the study titled **"Satellites reveal recent increases in global land surface albedo that moderate global warming"**. 
 
 ## Repository Structure
 
