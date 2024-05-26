@@ -1,6 +1,6 @@
 # Satellites Reveal Recent Increases in Global Land Surface Albedo that Moderate Global Warming
 
-This repository contains the code and data for the study titled **"Satellites reveal recent increases in global land surface albedo that moderate global warming"**. The study examines how recent changes in global land surface albedo contribute to moderating global warming.
+This repository contains the code and data for the study titled **"Satellites reveal recent increases in global land surface albedo that moderate global warming"**. 
 
 ## Repository Structure
 
@@ -9,9 +9,9 @@ The repository is organized into the following directories and files:
 - **data/**: Contains intermediate data used in the study.
 - **figure/**: Stores generated figures. These figures can be recreated using the scripts in the repository.
 - **preprocess/**: Contains scripts for data preprocessing.
-- **grid_data/**: Includes scripts for generating grid data used in ALLUM.
+- **grid_data/**: Includes scripts for generating grid data in ALLUM.
 - **val/**: Contains scripts for data validation.
-- **anasys/**: Contains scripts for data analysis.
+- **anasys/**: Contains scripts for analysis.
 - **tool.py**: A script that includes common utility functions and variables used across the repository.
 
 
