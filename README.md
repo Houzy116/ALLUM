@@ -1,5 +1,5 @@
 # ALLUM
-ALLUM is a seamless monthly global albedo and LULC dataset. 
+Albedo and Landcover Look-up Maps
 
 <p align="center">
   <img src="https://github.com/Houzy116/ALLUM/assets/131630519/627ea61b-e45c-4ceb-a9b7-bdc427f8fc9c" alt="S7" width="600">
