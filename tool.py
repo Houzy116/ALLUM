@@ -1,34 +1,27 @@
-import geopandas as gpd
-import datetime
-from glob import glob
 import numpy as np
-import os, sys, gdal
-from gdalconst import *
+import geopandas as gpd
 import rasterio
-import gc
-from matplotlib import pyplot as plt
-import math
-from gdalconst import *
-import shutil
-import time
-import osr
-import warnings
 from rasterio import fill
+from osgeo import gdal, gdalconst
+import os, sys, osr
+from gdalconst import *
 import netCDF4 as nc
-warnings.filterwarnings("ignore")
+import datetime,time
+from glob import glob
+import pandas as pd
+from matplotlib import pyplot as plt
+from matplotlib import cm
+import gc
+import math
+from math import sin, asin, cos, acos, tan, radians, pi, degrees
+import warnings
 from tqdm import tqdm
 import torch
-from dateutil.relativedelta import relativedelta
-import pandas as pd
-import requests
-import json
-# from generate_sankey import *
-from matplotlib import cm
 import random
 from scipy.stats import norm
 from sklearn.linear_model import LinearRegression
-from math import sin, asin, cos, acos, tan, radians, pi, degrees
-from osgeo import gdal, gdalconst
+from dateutil.relativedelta import relativedelta
+warnings.filterwarnings("ignore")
 names=['Evergreen Needleleaf Forests',
  'Evergreen Broadleaf Forests',
  'Deciduous Needleleaf Forests',
