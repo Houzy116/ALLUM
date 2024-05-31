@@ -47,7 +47,6 @@ The repository is organized into the following directories and files:
 - **mpl_scatter_density 0.7**
 - **seaborn 0.11.0**
 
-- 
 
 
 
