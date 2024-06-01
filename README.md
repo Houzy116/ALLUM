@@ -21,7 +21,23 @@ The repository is organized into the following directories and files:
    <br>
   <em><strong>Fig.1 The framework of our methodology. a,</strong> Generation of ALLUM, and contributions of LULC change to global land surface mean albedo (GLMA) change and the induced radiative forcing. <strong>b,</strong> Validations for reconstructing 500m-resolution blue-sky albedo. <strong>c,</strong> Contributions of changes in photosynthetic vegetation (PV), non-photosynthetic vegetation (NPV) and surface water content (SWC) to albedo change over regions without LULC conversions. The data in pink boxes and yellow boxes separately represent 500m-resolution pixel-level data and grid-level data.</em>
 </p>
+# Dependency Installation Guide
 
+Follow these steps to install the dependencies for this GitHub repository:
+
+
+## Installation
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/Houzy116/ALLUM/
+   cd ALLUM
+   
+2. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   
 ##  Code has been Tested On
 
 ### Python Versions
