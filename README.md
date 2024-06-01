@@ -31,7 +31,7 @@ Follow these steps to install the dependencies for this GitHub repository:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/Houzy116/ALLUM/
+   git clone https://github.com/Houzy116/ALLUM.git
    cd ALLUM
    
 2. **Install Dependencies**:
