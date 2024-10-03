@@ -9,7 +9,7 @@ The repository is organized into the following directories and files:
 - **data/**: Contains intermediate data used in the study.
 - **figure/**: Stores generated figures. These figures can be recreated using the scripts in the repository.
 - **preprocess/**: Contains scripts for data preprocessing.
-- **grid_data/**: Includes scripts for generating grid data in ALLUM.
+- **grid_data/**: Includes scripts for generating grid data in four ALLUMs.
 - **val/**: Contains scripts for data validation.
 - **anasys/**: Contains scripts for analysis.
 - **tool.py**: A script that includes common utility functions and variables used across the repository.
