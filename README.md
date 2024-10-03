@@ -1,4 +1,4 @@
-# Satellites Reveal Recent Increases in Global Land Surface Albedo that Moderate Global Warming
+# Satellites Reveal Recent Increases in Global Snow-free Land Surface Albedo that Moderate Global Warming
 
 This repository contains the code and some intermediate data for the study titled **"Satellites reveal recent increases in global land surface albedo that moderate global warming"**. 
 
@@ -47,21 +47,27 @@ Follow these steps to install the dependencies for this GitHub repository:
 - **Ubuntu 18.04**
 
 ### Specific Package Versions
-- **numpy 1.19.1**
+- **astropy 4.3.1**
+- **GDAL 3.0.2**
 - **geopandas 0.8.1**
-- **rasterio 1.1.5**
-- **gdal 3.0.2**
-- **netcdf4 1.5.4**
-- **pandas 1.3.5**
 - **matplotlib 3.5.3**
-- **torch 1.12.0**
-- **tqdm 4.50.2**
-- **sklearn 0.24.1**
-- **scipy 1.5.2**
-- **python-dateutil 2.8.1**
 - **mpl_chord_diagram 0.4.1**
 - **mpl_scatter_density 0.7**
+- **netCDF4 1.5.4**
+- **numpy 1.19.1**
+- **pandas 1.3.5**
+- **pymannkendall 1.4.3**
+- **python_dateutil 2.8.1**
+- **python_ternary 1.0.8**
+- **rasterio 1.1.5**
+- **scikit_learn 0.24.1**
+- **scipy 1.5.2**
 - **seaborn 0.11.0**
+- **Shapely 1.7.1**
+- **squarify 0.4.3**
+- **ternary 0.1**
+- **torch 1.12.0+cu113**
+- **tqdm 4.50.2**
 
 
 
