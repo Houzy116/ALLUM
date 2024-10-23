@@ -10,25 +10,14 @@ class get_10lat_information():
     condition:
               1--grid have enough data to Statistics
               2--all ocean
-              4--snowcover data have nan value
+              4--SZA>85
     if condition=2 return areas is [area of the grid, 0]
                    return albedomean is []
-    elif condition=3 return areas is [area of 17-tpyes landcover and snow,area of the grid, land area, no nan land area]
+    elif condition=1 return areas is [area of 17-tpyes landcover and snow,area of the grid, land area, no nan land area]
                    return albedomean is []
     elif condition=4 return areas is [area of the grid, land area, no nan land area]
                     return albedomean is []
-    else return a areas list with 21 length
-    
-    1-17 is 17 area of 17 land types
-    18 is snowcover area
-    19-21 are area of the grid, land area, no nan land area
-    
-    return a albedomean array for 20*6 size:
-    20: 17 types land, snow, total and ocean
-    6: 6 albedo bands
-    
-    there total is the albedo by average albedo of all nonan pixels in grid  (weighting snow and snowfree by snow frequence) directly, 
-    instand of the albedo by weighting the area of different types of albedo
+
     '''
     def __init__(self,y,m,lat):
         self.y=y
