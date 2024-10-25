@@ -105,7 +105,7 @@ def bm(b,m):
     WB_sky_fraction=torch.load("/data/hk/albedo/white_sky_fraction/white_sky_fraction2.pth")
     wb=(WB_sky_fraction[(2020-2001)*12+m-1]+WB_sky_fraction[(2001-2001)*12+m-1])/2
     wb=(WB_sky_fraction[(2020-2001)*12+m-1]+WB_sky_fraction[(2001-2001)*12+m-1])/2
-    wb_resample=resample_wb_fraction(wb,width=80152,height=40076,resample_alg = gdalconst.GRIORA_NearestNeighbour)
+    wb_resample=resample(wb,width=80152,height=40076,resample_alg = gdalconst.GRIORA_NearestNeighbour)
     wb_resample[wb_resample==2]=np.nan
 
 
@@ -199,7 +199,7 @@ if __name__=='__main__':
     #Calculate albedo-induced RF using seven kernels
     kernels=torch.load(f"/data2/hzy/albedo2/kernel/kernels.pth")
     sza,sza_l=torch.load('/data/hk/albedo/SZA.pth')
-    for key in ['HadGEM2', 'HadGEM3', 'CAM3', 'CAM5', 'ECHAM6','ERAI','ERA5']:
+    for key in ['HadGEM2', 'HadGEM3', 'CAM5', 'ECHAM6','ERAI','ERA5']:
         sw_y=kernels[key]
         print(key)
         for b in ['SSI','NMDI','NDVI']:
@@ -211,7 +211,7 @@ if __name__=='__main__':
                 month_time=(now+relativedelta(months=1)-now).total_seconds()
                 img=rasterio.open(f'/data2/hzy/ssd_hzy/G3/{b}{m}_85_final.tif').read(1)
                 sw=sw_y[m-1]
-                sw=resample_wb_fraction(sw,width=80152,height=40076,resample_alg = gdalconst.GRIORA_NearestNeighbour)
+                sw=resample(sw,width=80152,height=40076,resample_alg = gdalconst.GRIORA_NearestNeighbour)
                 img[img==0]=np.nan
                 img[SZA_L>1]=np.nan
                 eg=(img)*sw*month_time

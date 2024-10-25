@@ -16,14 +16,13 @@ if __name__=='__main__':
 
     # ERAI: Huang, Y., Xia, Y., and Tan, X.: On the pattern of CO2 radiative forcing and poleward energy transport, J. Geophys. Res.-Atmos., 122, 10578–10593, 2017. 
     # ERA5: Huang, H. and Huang, Y.: Radiative sensitivity quantified by a new set of radiation flux kernels based on the ECMWF Reanalysis v5 (ERA5), Earth Syst. Sci. Data, 15, 3001–3021, https://doi.org/10.5194/essd-15-3001-2023, 2023.
-    # CAM3: Shell, K. M., Kiehl, J. T. & Shields, C. A. Using the radiative kernel technique to calculate climate feedbacks in NCAR’s community atmospheric model. J. Climate 21, 2269–2282 (2008).
     # CAM5: Pendergrass, A. G., Conley, A. & Vitt, F. M. Surface and top-of-atmosphere radiative feedback kernels for CESM-CAM5. Earth Syst. Sci. Data 10, 317–324 (2018).
     # HadGEM2: Smith, C. J. et al. Understanding rapid adjustments to diverse forcing agents. Geophys. Res. Lett. 45, 12,023–12,031 (2018).
     # HadGEM3: Smith, C. J., Kramer, R. J. & Sima, A. The HadGEM3-GA7.1 radiative kernel: the importance of a well-resolved stratosphere. Earth Syst. Sci. Data 12, 2157–2168 (2020).
     # ECHAM6: Block, K. & Mauritsen, T. Forcing and feedback in the MPI‐ESM‐LR coupled model under abruptly quadrupled CO2. J. Adv. Model Earth Sy. 5, 676–691 (2013).
     
-    names=['HadGEM2', 'HadGEM3', 'CAM3', 'CAM5', 'ECHAM6','ERAI','ERA5']
-    v_names=['albedo_sw','albedo_sw','alb_all','FSNT','A_srad0','alb_toa_all','TOA_all']
+    names=['HadGEM2', 'HadGEM3', 'CAM5', 'ECHAM6','ERAI','ERA5']
+    v_names=['albedo_sw','albedo_sw','FSNT','A_srad0','alb_toa_all','TOA_all']
     for i in range(7):
         name=names[i]
         NC=nc.Dataset(f"/data2/hzy/albedo2/kernel/{name}.nc",'r')
