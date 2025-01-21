@@ -28,7 +28,7 @@ If you are attempting to reproduce this study, this document provides a step-by-
    - **`./anasys/area.ipynb`**: Outputs results on LULC (land use/land cover) changes.  
    - **`./anasys/PV_NPV_SWC.ipynb`**: Outputs results on the contributions of **PV**, **NPV**, and **SWC** changes to albedo change. 
 5. **Result Validation**  
-   The result validation is divided into five parts, and the required scripts are included in the `./val` folder:
+   The result validation is divided into five parts, and the required scripts are included in the **`./val`** folder:
 
    - **`./val/DIW.py`**: Validates the accuracy of the four-dimensional spatio-temporal Inverse Distance Weighted (IDW) interpolation model used to fill in missing data for ALLUMs.  
    - **`./val/rebuilding500.py`**: Reconstructs the global albedo map at 500m resolution.  
