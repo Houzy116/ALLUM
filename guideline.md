@@ -3,7 +3,7 @@
 If you are attempting to reproduce this study, this document provides a step-by-step guideline for data processing and result analysis.
 
 1. **Download Required Data**  
-   Follow the instructions in `./preprocess/download_data.md` to download all the data required for this study. The downloads and preprocessing of **MCD43A3 C6.1 albedo data**, **MCD12Q1 C6.1 LULC data**, and **MOD10A1 C6.1 snow cover fraction data** are performed via Google Earth Engine. The document provides executable code script links for these tasks. Additionally, the code script link for calculating the contributions of **PV**, **NPV**, and **SWC changes** to albedo change is also included in `download_data.md`.  
+   Follow the instructions in `./preprocess/download_data.md` to download all the data required for this study. The downloads and preprocessing of **MCD43A3 C6.1 albedo data**, **MCD12Q1 C6.1 LULC data**, and **MOD10A1 C6.1 snow cover fraction data** are performed via Google Earth Engine. The document provides executable code script links for these tasks. Additionally, the code script link for calculating the contributions of **photosynthetic vegetation (PV)**, **non-photosynthetic vegetation (NPV)**, and **surface water content (SWC)** changes to albedo change is also included in `download_data.md`.  
 
 2. **Preprocess the Data**  
    The downloaded data needs further preprocessing, including format conversion, missing value imputation, and resampling. The `./preprocess` folder provides scripts for preprocessing different datasets. Use these scripts sequentially to preprocess the data.  
@@ -26,7 +26,7 @@ If you are attempting to reproduce this study, this document provides a step-by-
    - **`./anasys/albedo.ipynb`**: Outputs results related to albedo.  
    - **`./anasys/RF.ipynb`**: Outputs results related to radiative forcing.  
    - **`./anasys/area.ipynb`**: Outputs results on LULC (land use/land cover) changes.  
-   - **`./anasys/PV_NPV_SWC.ipynb`**: Outputs results on the contributions of **PV**, **NPV**, and **SWC changes** to albedo change. 
+   - **`./anasys/PV_NPV_SWC.ipynb`**: Outputs results on the contributions of **PV**, **NPV**, and **SWC** changes to albedo change. 
 5. **Result Validation**  
    The result validation is divided into five parts, and the required scripts are included in the `./val` folder:
 
