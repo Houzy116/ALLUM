@@ -1,6 +1,6 @@
-# Satellites Reveal Recent Increases in Global Snow-free Land Surface Albedo that Moderate Global Warming
+# Satellites reveal recent increases in global land surface albedo-induced radiative forcing
 
-This repository contains the code and some intermediate data for the study titled **"Satellites reveal recent increases in global snow-free land surface albedo that moderate global warming"**. 
+This repository contains the code and some intermediate data for the study titled **"Satellites reveal recent increases in global land surface albedo-induced radiative forcing"**. 
 
 ## Repository Structure
 
@@ -69,6 +69,9 @@ Follow these steps to install the dependencies for this GitHub repository:
 - **ternary 0.1**
 - **torch 1.12.0+cu113**
 - **tqdm 4.50.2**
+- **pyhdf 0.11.4**
+- **joblib 0.17.0**
+
 
 
 
