@@ -17,9 +17,7 @@ The repository is organized into the following directories and files:
 
 
 <p align="center">
-  <img src=<img width="737" alt="微信图片_20250121132722" src="https://github.com/user-attachments/assets/d9f8b3ae-ff08-4973-8463-3946e67eb091" />
-
-alt="S7" width="600">
+  <img src=![image](https://github.com/Houzy116/ALLUM/blob/master/figure/S1.pdf) alt="S7" width="600">
    <br>
   <em><strong>Fig.1 The framework of our methodology. a,</strong> Generation of four ALLUMs, and contributions of LULC change to global snow-free land surface mean albedo (GLMA) change and the induced radiative forcing. <strong>b,</strong> Validations for reconstructing 500m-resolution blue-sky albedo. <strong>c,</strong> Contributions of changes in photosynthetic vegetation (PV), non-photosynthetic vegetation (NPV) and surface water content (SWC) to albedo change over regions without LULC conversions. The data in pink boxes and yellow boxes separately represent 500m-resolution pixel-level data and grid-level data.</em>
 </p>
