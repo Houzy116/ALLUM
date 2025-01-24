@@ -1,6 +1,6 @@
-# Satellites reveal recent increases in global land surface albedo-induced radiative forcing
+# Satellites reveal recent declines in global land surface albedo-induced radiative forcing
 
-This repository contains the code and some intermediate data for the study titled **"Satellites reveal recent increases in global land surface albedo-induced radiative forcing"**. 
+This repository contains the code and some intermediate data for the study titled **"Satellites reveal recent declines in global land surface albedo-induced radiative forcing"**. 
 
 ## Repository Structure
 
