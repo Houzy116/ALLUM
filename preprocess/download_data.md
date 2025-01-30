@@ -7,8 +7,7 @@ For **MCD43A3 C6.1 albedo data**, **MCD12Q1 C6.1 LULC data**, and **MOD10A1 C6.1
 - **MOD10A1 C6.1 snow cover fraction data**: [https://code.earthengine.google.com/261319c795656b2a014962c520948da4](https://code.earthengine.google.com/261319c795656b2a014962c520948da4)  
 
 
-The contributions of **photosynthetic vegetation (PV)**, **non-photosynthetic vegetation (NPV)**, and **surface water content (SWC)** changes to albedo change were calculated using Google Earth Engine. Below is the link to the code script for calculating and downloading intermediate results:  
-- [https://code.earthengine.google.com/40f2ec8176a6ee2ee09ecbb3e118f230](https://code.earthengine.google.com/40f2ec8176a6ee2ee09ecbb3e118f230)  
+The contributions of **photosynthetic vegetation (PV)**, **non-photosynthetic vegetation (NPV)**, and **surface water content (SWC)** changes to albedo change were calculated using Google Earth Engine. Below is the link to the code script for calculating and downloading intermediate results:  [https://code.earthengine.google.com/40f2ec8176a6ee2ee09ecbb3e118f230](https://code.earthengine.google.com/40f2ec8176a6ee2ee09ecbb3e118f230)  
 
 Additional datasets can be directly downloaded using the following links:  
 - **The diffuse and direct solar surface radiation fluxes**: [https://psl.noaa.gov/data/gridded/data.ncep.reanalysis.html](https://psl.noaa.gov/data/gridded/data.ncep.reanalysis.html)  
