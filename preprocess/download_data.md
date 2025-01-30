@@ -12,7 +12,7 @@ The contributions of **photosynthetic vegetation (PV)**, **non-photosynthetic ve
 
 Additional datasets can be directly downloaded using the following links:  
 - **The diffuse and direct solar surface radiation fluxes**: [https://psl.noaa.gov/data/gridded/data.ncep.reanalysis.html](https://psl.noaa.gov/data/gridded/data.ncep.reanalysis.html)  
-- **The in-situ albedo observations from AWS sites**: [https://dataverse.geus.dk/dataset.xhtml?persistentId=doi:10.22008/FK2/IW73UU](https://dataverse.geus.dk/dataset.xhtml?persistentId=doi:10.22008/FK2/IW73UU)  
+- **The in-situ albedo observations from AWS sites**: [https://doi.org/10.22008/FK2/IW73UU](https://doi.org/10.22008/FK2/IW73UU)  
 - **GLASS02B2 albedo product**: [https://www.glass.hku.hk/download.html](https://www.glass.hku.hk/download.html)  
 
 The methods for downloading radiative kernel data can be found in the following references:  
