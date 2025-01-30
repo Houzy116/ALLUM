@@ -1,18 +1,18 @@
 # Satellites reveal recent declines in global land surface albedo-induced radiative forcing
 
-This repository contains the code and some intermediate data for the study titled **"Satellites reveal recent declines in global land surface albedo-induced radiative forcing"**. 
+This repository contains the codes and the intermediate data for the study entitled **"Satellites reveal recent declines in global land surface albedo-induced radiative forcing"**. 
 
 ## Repository Structure
 
 The repository is organized into the following directories and files:
 
-- **data/**: Contains intermediate data used in the study.
-- **figure/**: Stores generated figures. These figures can be recreated using the scripts in the repository.
+- **data/**: Contains the intermediate data used in the study.
+- **figure/**: Stores the figures can be recreated using the scripts in the repository.
 - **preprocess/**: Contains scripts for data preprocessing.
 - **grid_data/**: Includes scripts for generating grid data in four ALLUMs.
-- **val/**: Contains scripts for data validation.
+- **val/**: Contains scripts for result validation.
 - **anasys/**: Contains scripts for analysis.
-- **tool.py**: A script that includes common utility functions and variables used across the repository.
+- **tool.py**: A script that includes common utility functions and variables used in the repository.
 
 
 
@@ -39,7 +39,7 @@ Follow these steps to install the dependencies for this GitHub repository:
    ```bash
    pip install -r requirements.txt
    
-##  Code has been Tested On
+##  Codes have been tested on
 
 ### Python Versions
 - **Python 3.7.7**
